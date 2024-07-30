@@ -353,18 +353,18 @@ namespace assignment_21
             //    Console.WriteLine(item);
             //}
 
-            //every object here have diffirent HashCode then it will add all to solve it we need to override to getHashCode
-            //after edit and make override to gethashCode and Equal then he compare with data not address
-            HashSet<Movie> movies = new HashSet<Movie>();
-            movies.Add(new Movie() { Id = 100, Title = "Bank Elhaz", Price = 120 });
-            movies.Add(new Movie() { Id = 120, Title = "Avatar", Price = 130 });
-            movies.Add(new Movie() { Id = 140, Title = "1000 mbrouk", Price = 110 });
-            movies.Add(new Movie() { Id = 140, Title = "1000 mbrouk", Price = 110 });
+            ////every object here have diffirent HashCode then it will add all to solve it we need to override to getHashCode
+            ////after edit and make override to gethashCode and Equal then he compare with data not address
+            //HashSet<Movie> movies = new HashSet<Movie>();
+            //movies.Add(new Movie() { Id = 100, Title = "Bank Elhaz", Price = 120 });
+            //movies.Add(new Movie() { Id = 120, Title = "Avatar", Price = 130 });
+            //movies.Add(new Movie() { Id = 140, Title = "1000 mbrouk", Price = 110 });
+            //movies.Add(new Movie() { Id = 140, Title = "1000 mbrouk", Price = 110 });
 
-            foreach (var item in movies)
-            {
-                Console.WriteLine(item);
-            }
+            //foreach (var item in movies)
+            //{
+            //    Console.WriteLine(item);
+            //}
             #endregion
 
             #endregion
